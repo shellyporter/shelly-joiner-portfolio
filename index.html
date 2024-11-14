@@ -10,7 +10,8 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f4f4f9;
+           <-- background-color: #f4f4f9;-->
+            background-color: #d8e2dc;
             color: #333;
             margin: 0;
             padding: 0;
@@ -43,7 +44,10 @@
         }
 
         .header-text {
-            flex: 1;
+            display: flex;
+            flex-direction: column; /* Ensures text stacks vertically */
+            align-items: flex-start; /* Aligns text to the left */
+            flex: 1; /* Allows text to take remaining space */
         }
 
         .header-text h1 {
@@ -129,8 +133,11 @@
     <header>
         <div class="header-content">
         <img src="profile.jpg" alt="Shelly Joiner" class="profile-picture" style="max-width: 200px; border-radius: 50%;">
-        <h1>Shelly Joiner</h1>
+            <div class="header-text">
+            <h1>Shelly Joiner</h1>
         <p class="subtitle">Professional Portfolio</p>
+            </div>
+        </div>
     </header>
 
     <nav>
