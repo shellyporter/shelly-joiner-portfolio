@@ -55,7 +55,11 @@
             margin: 5px 0 0;
             font-size: 1.2em;
         }
-
+        .subtitle {
+            margin: 5px 0 0; /* Adjust margin to control spacing between name and title */
+            font-size: 1.2em; /* Title font size */
+            color: #f0f0f0; /* Slightly lighter text color for the subtitle */
+        }
         nav {
             background-color: #333;
             padding: 10px;
@@ -123,9 +127,10 @@
 <body>
 
     <header>
-         <img src="profile.jpg" alt="Shelly Joiner" class="profile-picture" style="max-width: 200px; border-radius: 50%;">
+        <div class="header-content">
+        <img src="profile.jpg" alt="Shelly Joiner" class="profile-picture" style="max-width: 200px; border-radius: 50%;">
         <h1>Shelly Joiner</h1>
-        <p>Professional Portfolio</p>
+        <p>class="subtitle">Professional Portfolio</p>
     </header>
 
     <nav>
