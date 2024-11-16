@@ -10,7 +10,7 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f4f4f9;
+            background-color: #9A8C98;
             color: #333;
             margin: 0;
             padding: 0;
@@ -83,7 +83,7 @@
         }
 
         section {
-            background-color: white;
+            background-color: F2E9E4;
             padding: 20px;
             margin: 20px auto;
             max-width: 900px;
@@ -92,7 +92,7 @@
         }
 
         section h2 {
-            color: #4a90e2;
+            color: #9A8C98;
             margin-bottom: 15px;
             border-bottom: 2px solid #4a90e2;
             padding-bottom: 5px;
@@ -104,7 +104,7 @@
         }
 
         footer {
-            background-color: #4a90e2;
+            background-color: #9A8C98;
             color: white;
             text-align: center;
             padding: 10px;
@@ -113,7 +113,42 @@
             width: 100%;
             margin-top: 20px;
         }
+#contact {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 900px;
+}
 
+.contact-info {
+    display: flex; /* Enables Flexbox for side-by-side layout */
+    justify-content: space-around; /* Evenly spaces the items */
+    align-items: center; /* Vertically aligns the items */
+    margin-top: 20px;
+    flex-wrap: wrap; /* Ensures responsiveness for smaller screens */
+}
+
+.contact-item {
+    display: flex; /* Allows icon and text to align horizontally */
+    align-items: center;
+    margin: 10px; /* Adds space between each item */
+    font-size: 1.1em; /* Adjusts text size */
+}
+
+.contact-item i {
+    margin-right: 10px; /* Adds space between icon and text */
+    font-size: 1.3em; /* Makes icons slightly larger */
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #4a90e2; /* Link color */
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+    color: #007acc; /* Hover color for links */
+}
+<!--
         .contact-info p {
             font-size: 1.1em;
         }
@@ -125,7 +160,7 @@
 
         .contact-info i {
             margin-right: 8px;
-        }
+        } -->
     </style>
 </head>
 <body>
@@ -175,10 +210,18 @@
     <section id="contact">
         <h2>Contact Information</h2>
         <div class="contact-info">
-            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:shellyporter21@outlook.com">Shellyporter21@outlook.com</a></p>
-             <p><i class="fas fa-phone"></i> Phone: <a href="tel:+19379031979">937-903-1979</a></p>
-            <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/shellynicholsjoiner/" target="_blank">Connect with me</a></p>
-    </div>
+           <div class="contact-item">
+            <i class="fas fa-envelope"></i> 
+            <a href="mailto:shellyporter21@outlook.com">shellyporter21@outlook.com</a>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-phone"></i> 
+            <a href="tel:+19379031979">937-903-1979</a>
+        </div>
+        <div class="contact-item">
+            <i class="fab fa-linkedin"></i> 
+            <a href="https://www.linkedin.com/in/shellynicholsjoiner/" target="_blank">Connect on LinkedIn</a>
+       </div>
         </div>
     </section>
 
