@@ -11,7 +11,7 @@ This repository contains the code for my personal portfolio website. The site sh
 
 ## GitHub Pages
 
-This portfolio is live and hosted via GitHub Pages. You can view it here: [https://yourusername.github.io/shelly-joiner-portfolio](https://yourusername.github.io/shelly-joiner-portfolio)
+This portfolio is live and hosted via GitHub Pages. You can view it here: [https://yourusername.github.io/shelly-joiner-portfolio](https://shellyporter.github.io/shelly-joiner-portfolio)
 
 ## Contact Information
 
