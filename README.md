@@ -1,4 +1,4 @@
-# Shelly Joiner - Professional Portfolio
+# Shelly Porter - Professional Portfolio
 
 This repository contains the code for my personal portfolio website. The site showcases my work history, notable projects, and provides a way to contact me.
 
